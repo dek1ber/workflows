@@ -17,5 +17,7 @@ I currently have 5 different "workflows" set up:
 ## BE CAREFUL 
 The full pentest workflow (option 1) will take a while to do (due to the number of github repos), AND will overwrite data in your /opt/tools directory!!!
 
+ALSO this script is meant to clean up the home directory! Meaning that all of the standard XDG home directories except for ~/Downloads will be deleted!
+
 Credits:
 - https://github.com/madmantm/pentest-tools/blob/master/install-pentest-tools.sh (plus all repos listed)
