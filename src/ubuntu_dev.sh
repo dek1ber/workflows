@@ -7,7 +7,7 @@ function __ubuntu_dev__() {
     python3-minimal libboost-all-dev libssl-dev \
     libsqlite3-dev doxygen graphviz python3-pip \
     git tmux libx11-dev libxrandr-dev libxinerama-dev \
-    libxft-dev neovim gcc make perl go
+    libxft-dev neovim gcc make perl
 
   echo "[*] Installing pip packages"
   pip3 install jedi pwntools pycryptodome \
