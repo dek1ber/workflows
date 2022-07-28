@@ -3,7 +3,7 @@ function __ubuntu_dev__() {
   apt-get update
 
   echo "[*] Installing main packages from apt repos"
-  sudo apt install build-essential pkg-config \
+  sudo apt install -y build-essential pkg-config \
     python3-minimal libboost-all-dev libssl-dev \
     libsqlite3-dev doxygen graphviz python3-pip \
     git tmux libx11-dev libxrandr-dev libxinerama-dev \
