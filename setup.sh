@@ -19,11 +19,9 @@ read choice
 
 case $choice in 
   "1")
-    mv /src/zshrc /home/$user/.zshrc;
     __pentest_repos__ $user;
     __pentest_pkgs__;;
   "2")
-    mv /src/zshrc /home/$user/.zshrc;
     __pentest_pkgs__;;
   "3")
     __ubuntu_dev__ $user;;
