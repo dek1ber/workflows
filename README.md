@@ -4,7 +4,7 @@ This is a personalized set of bootstrap scripts designed to let me quickly set u
 
 ```bash
 chmod +x workflows/setup.sh
-./workflows/setups.sh
+sudo ./workflows/setups.sh
 ```
 
 I currently have 5 different "workflows" set up:
